@@ -1,6 +1,6 @@
 # Pizza and Juice places by using Yelp API
 
-##( Implimented the code using  Clean Architecture )
+# ( Implimented the code using  Clean Architecture )
 
 ## Overview
 This project is an Express.js-based REST API that fetches pizza and juice places by using Yelp API . It includes middleware for CORS, rate limiting, and structured logging.
@@ -13,17 +13,16 @@ This project is an Express.js-based REST API that fetches pizza and juice places
 - Implements middleware for CORS and rate limiting
 
 ## Tech Stack Used
-- **Backend:** Node.js, Express.js , Apollor server , graphql
-- **API Integration:** Yelp API
-- **Middleware:** CORS, Rate Limiting
-- **Logging:** Winston Logger
-- **Testing:** Jest, Supertest
+- **Backend :** Node.js,  Express.js , Apollor server , graphql
+- **API Integration :**   Yelp API
+- **Middleware :**  CORS , Rate Limiting
+- **Logging :**    Winston Logger
+- **Testing :**   Jest , Supertest
 
 ## Clone & Installation
 1. **Clone the Repository**
    ```sh
-   git clone <repository_url>
-   cd <repository_folder>
+   git clone https://github.com/Rashid-123/MSA-assignment.git
    ```
 2. **Install Dependencies**
    ```sh
@@ -32,12 +31,13 @@ This project is an Express.js-based REST API that fetches pizza and juice places
 3. **Set Up Environment Variables**
    Create a `.env` file in the root directory and add the following:
    ```env
-   YELP_API_KEY=your_yelp_api_key
-   PORT=5000
+   YELP_API_KEY = your_yelp_api_key
+   POR = 5000
+   FRONTEND_URL = your_frontend_url
    ```
-4. **Start the Server**
+4. **Run the Server**
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## API Endpoints
