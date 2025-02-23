@@ -69,7 +69,6 @@ npm test
 
 
 ## Troubleshooting
-- If a request returns `404`, ensure the API routes are correctly defined in `app.js`.
 - Check the `.env` file for correct Yelp API credentials.
 - Ensure required dependencies are installed (`npm install`).
 
