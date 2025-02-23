@@ -3,7 +3,9 @@
 # ( Implimented the code using  Clean Architecture )
 
 ## Overview
-This project is an Express.js-based REST API that fetches pizza and juice places by using Yelp API . It includes middleware for CORS, rate limiting, and structured logging.
+This project is an Express.js-based application that provides both REST API and GraphQL endpoints using Apollo Server to fetch pizza and juice places from the Yelp API, with middleware for CORS, rate limiting, structured logging, and comprehensive testing using Jest and Supertest.
+
+
 
 ## Features
 - Fetch pizza places
